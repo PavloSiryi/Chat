@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  width: 80vw;
+  bottom: 0;
+  margin-bottom: 10px;
+
+  .input {
+    height: 40px;
+    width: calc(100% - 150px);
+    resize: none;
+  }
+  .button {
+    height: 46px;
+    width: 60px;
+    float: right;
+  }
+  .select {
+    margin: 0 10px;
+    height: 46px;
+    width: 60px;
+    float: right;
+  }
+}
